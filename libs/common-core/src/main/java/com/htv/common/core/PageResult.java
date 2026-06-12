@@ -1,0 +1,6 @@
+package com.htv.common.core;
+
+import java.util.List;
+
+public record PageResult<T> (List<T> items, long totalItems, int page, int size) {
+}

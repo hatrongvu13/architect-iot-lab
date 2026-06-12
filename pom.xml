@@ -1,0 +1,48 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.htv</groupId>
+  <artifactId>architect-iot-lab</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <name>architect-iot-lab</name>
+  <url>http://maven.apache.org</url>
+  <modules>
+    <module>apps</module>
+
+    <module>libs/common-api-contract</module>
+    <module>libs/common-core</module>
+    <module>libs/common-domain</module>
+    <module>libs/common-error</module>
+    <module>libs/common-event</module>
+    <module>libs/common-iot</module>
+    <module>libs/common-security-model</module>
+
+    <module>platform/java-bom</module>
+    <module>platform/java-parent</module>
+    <module>platform/quarkus-platform</module>
+    <module>platform/spring-platform</module>
+
+    <module>spring-starter/htv-security-starter</module>
+    <module>spring-starter/htv-cache-starter</module>
+    <module>spring-starter/htv-common-starter</module>
+    <module>spring-starter/htv-database-starter</module>
+    <module>spring-starter/htv-graphql-starter</module>
+    <module>spring-starter/htv-grpc-starter</module>
+    <module>spring-starter/htv-kafka-starter</module>
+    <module>spring-starter/htv-mqtt-starter</module>
+
+    <module>quarkus-extensions/htv-graphql-extentions</module>
+    <module>quarkus-extensions/htv-grpc-extentions</module>
+    <module>quarkus-extensions/htv-kafka-extentions</module>
+    <module>quarkus-extensions/htv-mqtt-extentions</module>
+    <module>quarkus-extensions/htv-security-extentions</module>
+  </modules>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <java.version>21</java.version>
+  </properties>
+</project>
