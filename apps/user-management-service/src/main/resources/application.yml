@@ -1,0 +1,11 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /user-manager
+
+spring:
+  application:
+    name: Htv User manager
+htv:
+  security:
+    mode: auth_server

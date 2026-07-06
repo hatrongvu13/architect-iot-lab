@@ -1,5 +1,6 @@
 package com.htv.security;
 
+import com.htv.security.model.SecurityMode;
 import jakarta.validation.constraints.Email;
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
@@ -14,6 +15,7 @@ import java.util.List;
 public class HtvSecurityProperties {
     private boolean enabled = true;
     private String issuer = "htv";
+    private SecurityMode mode = SecurityMode.RESOURCE_SERVER;
     /**
      * Minimum recommended length for HS256 secret is 32 bytes. Replace in each environment.
      */
