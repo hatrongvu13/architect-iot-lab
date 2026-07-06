@@ -1,0 +1,13 @@
+version: "3.9"
+services:
+  postgres:
+    image: postgres:16
+    container_name: sql_db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: root
+    ports:
+      - "5342:5342"
+    volumes:
+      - ./data:/var/lib/postgresql/data
