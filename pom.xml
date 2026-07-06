@@ -10,7 +10,13 @@
   <name>architect-iot-lab</name>
   <url>http://maven.apache.org</url>
   <modules>
-    <module>apps</module>
+    <module>apps/alert-rule-service</module>
+    <module>apps/dashboard-bff-service</module>
+    <module>apps/device-management-service</module>
+    <module>apps/farm-management-service</module>
+    <module>apps/farm-task-service</module>
+    <module>apps/telemetry-query-service</module>
+    <module>apps/user-management-service</module>
 
     <module>libs/common-api-contract</module>
     <module>libs/common-core</module>
@@ -39,6 +45,8 @@
     <module>quarkus-extensions/htv-kafka-extentions</module>
     <module>quarkus-extensions/htv-mqtt-extentions</module>
     <module>quarkus-extensions/htv-security-extentions</module>
+    <module>contracts</module>
+    <module>contracts/internal-auth-contracts</module>
   </modules>
 
   <properties>
