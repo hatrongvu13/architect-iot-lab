@@ -3,14 +3,26 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.htv</groupId>
-        <artifactId>architect-iot-lab</artifactId>
+        <artifactId>apps</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>apps</artifactId>
-    <packaging>pom</packaging>
+    <artifactId>telemetry-query-service</artifactId>
+    <packaging>jar</packaging>
+
+    <name>telemetry-query-service</name>
+    <url>http://maven.apache.org</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>3.8.1</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 </project>
