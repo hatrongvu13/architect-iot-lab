@@ -1,14 +1,15 @@
 package com.htv.security;
 
 import com.htv.security.model.SecurityMode;
-import jakarta.validation.constraints.Email;
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.http.HttpMethod;
 
 import java.time.Duration;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 @Data
 @ConfigurationProperties(prefix = "htv.security")
@@ -36,8 +37,9 @@ public class HtvSecurityProperties {
     public static class AccessRule {
         private String pattern;
         private HttpMethod method;
-        private List<String> roles = new ArrayList<>();
-        private List<String> permissions = new ArrayList<>();
+        private Set<String> roles = new HashSet<>();
+        private Set<String> permissions = new HashSet<>();
+        private boolean requireMfa = false;
     }
 
     @Data
