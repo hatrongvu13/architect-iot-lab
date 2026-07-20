@@ -45,8 +45,6 @@
     <module>quarkus-extensions/htv-kafka-extentions</module>
     <module>quarkus-extensions/htv-mqtt-extentions</module>
     <module>quarkus-extensions/htv-security-extentions</module>
-    <module>contracts</module>
-    <module>contracts/internal-auth-contracts</module>
   </modules>
 
   <properties>
