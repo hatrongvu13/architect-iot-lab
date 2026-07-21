@@ -47,7 +47,7 @@ public class AuthController {
     public Object login(@Valid @RequestBody AuthDtos.LoginRequest request) {
         AuthenticatedUser user = authService.authenticate(request.usernameOrEmail(), request.password());
         if (shouldAskMfa(user)) {
-            HtvSecurityProperties.MfaMethod method = user.preferredMfaMethod() != null ? user.preferredMfaMethod() : properties.getMfa().getAllowedMfaMethods().getFirst();
+            HtvSecurityProperties.MfaMethod method = user.preferredMfaMethod() != null ? user.preferredMfaMethod() : properties.getMfa().getAllowedMfaMethods().get(0);
             MfaService.MfaChallenge challenge = mfaService.createChallenge(user, method);
             return new AuthDtos.MfaRequiredResponse(challenge.challengeId(), challenge.method(), challenge.deliveryHint(), challenge.expiresInSeconds());
         }

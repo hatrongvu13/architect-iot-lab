@@ -6,6 +6,26 @@ server:
 spring:
   application:
     name: Htv User manager
+  datasource:
+    url: jdbc:postgresql://localhost:5432/user-manager
+    username: root
+    password: root
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+  sql:
+    init:
+      mode: always
+logging:
+  level:
+    org.hibernate.sql: DEBUG
+    org.hibernate.orm.jdbc.bind: TRACE
 htv:
   security:
     mode: auth_server
