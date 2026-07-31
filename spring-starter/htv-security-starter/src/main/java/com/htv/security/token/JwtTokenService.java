@@ -23,7 +23,7 @@ public class JwtTokenService {
         Instant accessExpiresAt = now.plus(properties.getAccessTokenTtl());
         String refreshTokenId = UUID.randomUUID().toString();
         Instant refreshExpiresAt = now.plus(properties.getRefreshTokenTtl());
-        refreshTokenStore.save(refreshTokenId, user.userId(), refreshExpiresAt);
+        refreshTokenStore.save(refreshTokenId, user.username(), refreshExpiresAt);
         JwsHeader jwsHeader = JwsHeader
                 .with(MacAlgorithm.HS256)
                 .build();
@@ -32,7 +32,7 @@ public class JwtTokenService {
                 .issuer(properties.getIssuer())
                 .issuedAt(now)
                 .expiresAt(accessExpiresAt)
-                .subject(user.userId())
+                .subject(user.username())
                 .id(UUID.randomUUID().toString())
                 .claim(properties.getTokenTypeClaim(), "access")
                 .claim("username", user.username())
@@ -46,7 +46,7 @@ public class JwtTokenService {
                 .issuer(properties.getIssuer())
                 .issuedAt(now)
                 .expiresAt(refreshExpiresAt)
-                .subject(user.userId())
+                .subject(user.username())
                 .id(refreshTokenId)
                 .claim(properties.getTokenTypeClaim(), "refresh")
                 .build();

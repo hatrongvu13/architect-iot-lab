@@ -12,7 +12,7 @@ import java.util.Set;
 public class AppUser {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private String id;
+    private Long id;
 
     @Column(unique = true)
     private String username;

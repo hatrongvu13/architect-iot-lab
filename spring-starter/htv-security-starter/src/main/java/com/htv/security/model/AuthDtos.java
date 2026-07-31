@@ -27,7 +27,7 @@ public class AuthDtos {
                                 String refreshToken,
                                 String tokenType,
                                 long expiresInSeconds,
-                                String userId,
+                                Long userId,
                                 Set<String> roles,
                                 Set<String> permissions,
                                 boolean mfaVerified) {
