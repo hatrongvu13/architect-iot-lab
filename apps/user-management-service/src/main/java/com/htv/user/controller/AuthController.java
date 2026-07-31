@@ -30,7 +30,6 @@ public class AuthController {
     @PostMapping("/login")
     public Object login(@Valid @RequestBody AuthDtos.LoginRequest request) {
         AuthenticatedUser user = authService.authenticate(request.usernameOrEmail(), request.password());
-
         return tokenService.issueTokenPair(user, false);
     }
 
