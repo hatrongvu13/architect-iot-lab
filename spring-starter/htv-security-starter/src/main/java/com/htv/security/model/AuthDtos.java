@@ -1,6 +1,5 @@
 package com.htv.security.model;
 
-import com.htv.security.HtvSecurityProperties;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 
@@ -22,32 +21,6 @@ public class AuthDtos {
     }
 
     public record RefreshRequest(@NotBlank String refreshToken) {
-    }
-
-    public record MfaVerifyRequest(@NotBlank String challengeId,
-                                   @NotBlank String code) {
-    }
-
-    public record MfaSetupRequest(@NotBlank HtvSecurityProperties.MfaMethod method) {
-    }
-
-    public record MfaSetupResponse(HtvSecurityProperties.MfaMethod method,
-                                   String userId,
-                                   String qrUri,
-                                   String qrImageBase64,
-                                   String emailHint,
-                                   long expiresInSeconds) {
-    }
-
-    public record MfaChallengeRequest(@NotBlank String userOrEmail,
-                                      @NotBlank String password,
-                                      HtvSecurityProperties.MfaMethod method){
-    }
-
-    public record MfaRequiredResponse(String challengeId,
-                                      HtvSecurityProperties.MfaMethod method,
-                                      String deliveryHint,
-                                      long expiresInSeconds) {
     }
 
     public record TokenResponse(String accessToken,

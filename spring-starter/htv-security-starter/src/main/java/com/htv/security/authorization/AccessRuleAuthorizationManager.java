@@ -15,14 +15,10 @@ import java.util.stream.Collectors;
 public class AccessRuleAuthorizationManager implements AuthorizationManager<RequestAuthorizationContext> {
     private final Set<String> requiredRoles;
     private final Set<String> requiredPermissions;
-    private final boolean requireMfa;
-    private final String mfaClaim;
 
-    public AccessRuleAuthorizationManager(Set<String> requiredRoles, Set<String> requiredPermissions, boolean requireMfa, String mfaClaim) {
+    public AccessRuleAuthorizationManager(Set<String> requiredRoles, Set<String> requiredPermissions) {
         this.requiredRoles = requiredRoles;
         this.requiredPermissions = requiredPermissions;
-        this.requireMfa = requireMfa;
-        this.mfaClaim = mfaClaim;
     }
 
     @Override
@@ -32,16 +28,6 @@ public class AccessRuleAuthorizationManager implements AuthorizationManager<Requ
         Set<String> actual = auth.getAuthorities().stream().map(GrantedAuthority::getAuthority).collect(Collectors.toSet());
         boolean rolesOk = requiredRoles.isEmpty() || actual.stream().anyMatch(requiredRoles::contains);
         boolean permissionsOk = requiredPermissions.isEmpty() || actual.containsAll(requiredPermissions);
-        boolean mfaOk = !requireMfa || isVerified(auth);
-        return new AuthorizationDecision(rolesOk && permissionsOk && mfaOk);
-    }
-
-    private boolean isVerified(Authentication auth) {
-        if (auth instanceof JwtAuthenticationToken jwtAuth) {
-            Jwt jwt = jwtAuth.getToken();
-            Object value = jwt.getClaim(mfaClaim);
-            return Boolean.TRUE.equals(value) || "true".equalsIgnoreCase(String.valueOf(value));
-        }
-        return false;
+        return new AuthorizationDecision(rolesOk && permissionsOk);
     }
 }

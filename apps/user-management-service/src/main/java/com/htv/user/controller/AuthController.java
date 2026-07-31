@@ -1,4 +1,4 @@
-package com.htv.security.web;
+package com.htv.user.controller;
 
 import com.htv.security.model.AuthDtos;
 import com.htv.security.model.AuthenticatedUser;
@@ -7,10 +7,10 @@ import com.htv.security.token.JwtTokenService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnBean;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.ResponseEntity;
+import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.security.oauth2.jwt.Jwt;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/v1/auth")
@@ -32,6 +32,12 @@ public class AuthController {
         AuthenticatedUser user = authService.authenticate(request.usernameOrEmail(), request.password());
 
         return tokenService.issueTokenPair(user, false);
+    }
+
+    @GetMapping("/info")
+    public ResponseEntity<?> info() {
+        Jwt jwt = (Jwt) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+        return ResponseEntity.ok(jwt.getClaims());
     }
 
 }

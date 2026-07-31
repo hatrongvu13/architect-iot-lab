@@ -1,6 +1,5 @@
 package com.htv.security;
 
-import com.htv.security.model.SecurityMode;
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.http.HttpMethod;
@@ -16,7 +15,6 @@ import java.util.Set;
 public class HtvSecurityProperties {
     private boolean enabled = true;
     private String issuer = "htv";
-    private SecurityMode mode = SecurityMode.RESOURCE_SERVER;
     /**
      * Minimum recommended length for HS256 secret is 32 bytes. Replace in each environment.
      */
@@ -27,9 +25,8 @@ public class HtvSecurityProperties {
     private String permissionClaim = "permissions";
     private String tokenTypeClaim = "typ";
     private String mfaClaim = "mfa";
-    private List<String> publicPaths = new ArrayList<>(List.of("/actuator/heath", "/actuator/info", "/api/v1/auth/register", "/api/v1/auth/login", "/api/v1/auth/refresh"));
+    private List<String> publicPaths = new ArrayList<>(List.of("/actuator/heath", "/actuator/info", "/api/v1/auth/register", "/api/v1/auth/login", "/api/v1/auth/refresh", "/api/v1/auth/ping"));
     private List<AccessRule> accessRules = new ArrayList<>();
-    private Mfa mfa = new Mfa();
     private Cors cors = new Cors();
     private Headers headers = new Headers();
 
@@ -40,25 +37,6 @@ public class HtvSecurityProperties {
         private Set<String> roles = new HashSet<>();
         private Set<String> permissions = new HashSet<>();
         private boolean requireMfa = false;
-    }
-
-    @Data
-    public static class Mfa {
-        /**
-         * Global switch: if false all MFA endpoints are disabled. If true, MFA is still opt-in user.
-         */
-        private boolean enabled = true;
-        /**
-         * MFA is not forced by role. It is applied only when user.mfaEnabled = true or an access-rule requires MFA.
-         */
-        private boolean userOptInOnly = true;
-        private Duration challengeTtl = Duration.ofMinutes(5);
-        private Duration setupTtl = Duration.ofMinutes(10);
-        private int codeLength = 6;
-        private int totpTimeStepSeconds = 30;
-        private String issuerLabel = "HTV-Lab";
-        private List<MfaMethod> allowedMfaMethods = new ArrayList<>(List.of(MfaMethod.TOTP_QR, MfaMethod.TOTP_QR));
-        private Email email = new Email();
     }
 
     @Data
@@ -74,16 +52,5 @@ public class HtvSecurityProperties {
     public static class Headers {
         private boolean contentSecurityPolicy = true;
         private String cspPolicy = "default-src 'self'; frame-ancestors 'none'";
-    }
-
-    public enum MfaMethod {
-        TOTP_QR, EMAIL_OTP
-    }
-
-    @Data
-    public static class Email {
-        private String from = "no-reply@htv.com.vn";
-        private String subject = "Your Htv Lab verification code";
-        private String template = "Your verification code is: {{code}}. It expires in {{ttlMinutes}} minutes.";
     }
 }

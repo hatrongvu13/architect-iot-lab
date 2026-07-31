@@ -28,4 +28,8 @@ logging:
     org.hibernate.orm.jdbc.bind: TRACE
 htv:
   security:
-    mode: auth_server
+    public-paths:
+      - "/api/v1/ping"
+      - "/api/v1/auth/login"
+      - "/api/v1/auth/register"
+    jwt-secret: KivgWnRCTzrkiIVVHqT/0cwb/xhdOr+HxkaYBL9jQHw=

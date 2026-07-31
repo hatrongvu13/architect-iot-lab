@@ -30,6 +30,4 @@ public class AppUser {
 
     private boolean mfaEnabled;
 
-    @Enumerated(EnumType.STRING)
-    public HtvSecurityProperties.MfaMethod preferredMfaEnabled;
 }

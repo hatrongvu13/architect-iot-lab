@@ -5,6 +5,7 @@ import com.htv.security.model.AuthDtos;
 import com.htv.security.model.AuthenticatedUser;
 import com.htv.security.service.RefreshTokenStore;
 import lombok.RequiredArgsConstructor;
+import org.springframework.security.oauth2.jose.jws.MacAlgorithm;
 import org.springframework.security.oauth2.jwt.*;
 
 import java.time.Instant;
@@ -23,6 +24,9 @@ public class JwtTokenService {
         String refreshTokenId = UUID.randomUUID().toString();
         Instant refreshExpiresAt = now.plus(properties.getRefreshTokenTtl());
         refreshTokenStore.save(refreshTokenId, user.userId(), refreshExpiresAt);
+        JwsHeader jwsHeader = JwsHeader
+                .with(MacAlgorithm.HS256)
+                .build();
 
         JwtClaimsSet accessClaims = JwtClaimsSet.builder()
                 .issuer(properties.getIssuer())
@@ -47,8 +51,8 @@ public class JwtTokenService {
                 .claim(properties.getTokenTypeClaim(), "refresh")
                 .build();
 
-        String accessToken = jwtEncoder.encode(JwtEncoderParameters.from(accessClaims)).getTokenValue();
-        String refreshToken = jwtEncoder.encode(JwtEncoderParameters.from(refreshClaims)).getTokenValue();
+        String accessToken = jwtEncoder.encode(JwtEncoderParameters.from(jwsHeader, accessClaims)).getTokenValue();
+        String refreshToken = jwtEncoder.encode(JwtEncoderParameters.from(jwsHeader, refreshClaims)).getTokenValue();
 
         return new AuthDtos.TokenResponse(accessToken, refreshToken, "Bearer", properties.getAccessTokenTtl().toSeconds(), user.userId(), user.roles(), user.permissions(), mfaVerified);
     }
