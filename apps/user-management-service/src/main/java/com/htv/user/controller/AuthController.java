@@ -7,9 +7,6 @@ import com.htv.security.token.JwtTokenService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnBean;
-import org.springframework.http.ResponseEntity;
-import org.springframework.security.core.context.SecurityContextHolder;
-import org.springframework.security.oauth2.jwt.Jwt;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -31,12 +28,6 @@ public class AuthController {
     public Object login(@Valid @RequestBody AuthDtos.LoginRequest request) {
         AuthenticatedUser user = authService.authenticate(request.usernameOrEmail(), request.password());
         return tokenService.issueTokenPair(user, false);
-    }
-
-    @GetMapping("/info")
-    public ResponseEntity<?> info() {
-        Jwt jwt = (Jwt) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
-        return ResponseEntity.ok(jwt.getClaims());
     }
 
 }
