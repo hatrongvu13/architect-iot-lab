@@ -1,0 +1,1 @@
+{"nodes": [{"id": "pkg_common_api_contract", "label": "common-api-contract", "file_type": "code", "type": "package", "ecosystem": "maven", "source_file": "libs/common-api-contract/pom.xml", "source_location": "L1"}], "edges": []}

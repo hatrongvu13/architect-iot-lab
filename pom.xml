@@ -24,7 +24,6 @@
     <module>libs/common-error</module>
     <module>libs/common-event</module>
     <module>libs/common-iot</module>
-    <module>libs/common-security-model</module>
 
     <module>platform/java-bom</module>
     <module>platform/java-parent</module>

@@ -16,6 +16,6 @@ public class SecurityExceptionHandler {
     @ExceptionHandler(ErrorException.class)
     @ResponseStatus(HttpStatus.BAD_REQUEST)
     public ApiResponse<Void> handleErrorException(ErrorException error, HttpServletRequest request) {
-        return ApiResponse.fail(new ApiError(error.errorCode().name(), error.getMessage(), List.of()), request.getHeader("X-Correlation-Id"));
+        return ApiResponse.fail(new ApiError(error.errorCode().name(), error.getMessage(), List.of()));
     }
 }

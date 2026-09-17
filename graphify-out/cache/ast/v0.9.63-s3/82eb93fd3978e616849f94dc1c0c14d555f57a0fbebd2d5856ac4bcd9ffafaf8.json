@@ -1,0 +1,1 @@
+{"nodes": [{"id": "pkg_common_domain", "label": "common-domain", "file_type": "code", "type": "package", "ecosystem": "maven", "source_file": "libs/common-domain/pom.xml", "source_location": "L1"}], "edges": []}

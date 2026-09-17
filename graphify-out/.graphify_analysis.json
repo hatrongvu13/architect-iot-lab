@@ -1,0 +1,726 @@
+{
+  "communities": {
+    "0": [
+      "annotation",
+      "apps_user_management_service_src_main_java_com_htv_user_controller_admincontroller",
+      "apps_user_management_service_src_main_java_com_htv_user_controller_admincontroller_admincontroller",
+      "apps_user_management_service_src_main_java_com_htv_user_controller_pingcontroller",
+      "apps_user_management_service_src_main_java_com_htv_user_controller_pingcontroller_pingcontroller",
+      "apps_user_management_service_src_main_java_com_htv_user_controller_pingcontroller_pingcontroller_ping",
+      "apps_user_management_service_src_main_java_com_htv_user_controller_usercontroller",
+      "apps_user_management_service_src_main_java_com_htv_user_controller_usercontroller_java_getmapping",
+      "apps_user_management_service_src_main_java_com_htv_user_controller_usercontroller_java_requestmapping",
+      "apps_user_management_service_src_main_java_com_htv_user_controller_usercontroller_java_restcontroller",
+      "apps_user_management_service_src_main_java_com_htv_user_controller_usercontroller_usercontroller",
+      "apps_user_management_service_src_main_java_com_htv_user_controller_usercontroller_usercontroller_me",
+      "apps_user_management_service_src_main_java_com_htv_user_controller_usercontroller_usercontroller_update",
+      "apps_user_management_service_src_main_java_com_htv_user_dto_userupdaterequest_userupdaterequest",
+      "apps_user_management_service_src_main_java_com_htv_user_service_admin_adminservice",
+      "apps_user_management_service_src_main_java_com_htv_user_service_admin_adminservice_adminservice",
+      "apps_user_management_service_src_main_java_com_htv_user_service_admin_adminserviceimpl",
+      "apps_user_management_service_src_main_java_com_htv_user_service_admin_adminserviceimpl_adminserviceimpl",
+      "apps_user_management_service_src_main_java_com_htv_user_service_user_userservice",
+      "apps_user_management_service_src_main_java_com_htv_user_service_user_userservice_userservice",
+      "apps_user_management_service_src_main_java_com_htv_user_service_user_userservice_userservice_getme",
+      "apps_user_management_service_src_main_java_com_htv_user_service_user_userservice_userservice_update",
+      "apps_user_management_service_src_main_java_com_htv_user_service_user_userserviceimpl",
+      "apps_user_management_service_src_main_java_com_htv_user_service_user_userserviceimpl_java_override",
+      "apps_user_management_service_src_main_java_com_htv_user_service_user_userserviceimpl_userserviceimpl",
+      "apps_user_management_service_src_main_java_com_htv_user_service_user_userserviceimpl_userserviceimpl_getme",
+      "apps_user_management_service_src_main_java_com_htv_user_service_user_userserviceimpl_userserviceimpl_update",
+      "jwt",
+      "libs_common_api_contract_src_main_java_com_htv_common_contract_apiresponse_apiresponse",
+      "libs_common_api_contract_src_main_java_com_htv_common_contract_apiresponse_apiresponse_ok",
+      "lombok_extern_slf4j_slf4j",
+      "lombok_requiredargsconstructor",
+      "org_springframework_http_responseentity",
+      "org_springframework_stereotype_service",
+      "org_springframework_web_bind_annotation_getmapping",
+      "org_springframework_web_bind_annotation_requestmapping",
+      "org_springframework_web_bind_annotation_restcontroller",
+      "putmapping",
+      "securitycontextholder"
+    ],
+    "1": [
+      "abstracthttpconfigurer",
+      "bcryptpasswordencoder",
+      "corsconfiguration",
+      "headersconfigurer",
+      "immutablesecret",
+      "javax_crypto_secretkey",
+      "nimbusjwtdecoder",
+      "nimbusjwtencoder",
+      "org_springframework_boot_autoconfigure_autoconfiguration",
+      "org_springframework_boot_autoconfigure_condition_conditionalonclass",
+      "org_springframework_boot_autoconfigure_condition_conditionalonmissingbean",
+      "org_springframework_boot_context_properties_enableconfigurationproperties",
+      "org_springframework_context_annotation_bean",
+      "org_springframework_security_config_annotation_method_configuration_enablemethodsecurity",
+      "org_springframework_security_config_annotation_web_builders_httpsecurity",
+      "org_springframework_security_config_annotation_web_configuration_enablewebsecurity",
+      "org_springframework_security_oauth2_jwt_jwtdecoder",
+      "org_springframework_security_oauth2_jwt_jwtencoder",
+      "org_springframework_security_web_securityfilterchain",
+      "org_springframework_web_cors_corsconfigurationsource",
+      "secretkeyspec",
+      "sessioncreationpolicy",
+      "signaturealgorithm",
+      "spring_starter_htv_security_starter_src_main_java_com_htv_security_htvlabsecurityautoconfiguration",
+      "spring_starter_htv_security_starter_src_main_java_com_htv_security_htvlabsecurityautoconfiguration_htvlabsecurityautoconfiguration",
+      "spring_starter_htv_security_starter_src_main_java_com_htv_security_htvlabsecurityautoconfiguration_htvlabsecurityautoconfiguration_htvlabsecuritysecretkey",
+      "spring_starter_htv_security_starter_src_main_java_com_htv_security_htvlabsecurityautoconfiguration_htvlabsecurityautoconfiguration_jwtdecoder",
+      "spring_starter_htv_security_starter_src_main_java_com_htv_security_htvlabsecurityautoconfiguration_htvlabsecurityautoconfiguration_jwtencoder",
+      "spring_starter_htv_security_starter_src_main_java_com_htv_security_htvlabsecurityautoconfiguration_htvlabsecurityautoconfiguration_jwttokenservice",
+      "spring_starter_htv_security_starter_src_main_java_com_htv_security_htvlabsecurityautoconfiguration_htvlabsecurityautoconfiguration_passwordencoder",
+      "spring_starter_htv_security_starter_src_main_java_com_htv_security_htvlabsecurityautoconfiguration_htvlabsecurityautoconfiguration_refreshtokenstore",
+      "spring_starter_htv_security_starter_src_main_java_com_htv_security_htvlabsecuritywebautoconfiguration",
+      "spring_starter_htv_security_starter_src_main_java_com_htv_security_htvlabsecuritywebautoconfiguration_htvlabsecuritywebautoconfiguration",
+      "spring_starter_htv_security_starter_src_main_java_com_htv_security_htvlabsecuritywebautoconfiguration_htvlabsecuritywebautoconfiguration_corsconfigurationsource",
+      "spring_starter_htv_security_starter_src_main_java_com_htv_security_htvlabsecuritywebautoconfiguration_htvlabsecuritywebautoconfiguration_securityfilterchain",
+      "standardcharsets",
+      "urlbasedcorsconfigurationsource"
+    ],
+    "2": [
+      "apps_user_management_service_src_main_java_com_htv_user_controller_authcontroller",
+      "apps_user_management_service_src_main_java_com_htv_user_controller_authcontroller_authcontroller",
+      "apps_user_management_service_src_main_java_com_htv_user_controller_authcontroller_authcontroller_login",
+      "apps_user_management_service_src_main_java_com_htv_user_controller_authcontroller_authcontroller_register",
+      "apps_user_management_service_src_main_java_com_htv_user_controller_authcontroller_java_requestmapping",
+      "apps_user_management_service_src_main_java_com_htv_user_controller_authcontroller_java_restcontroller",
+      "apps_user_management_service_src_main_java_com_htv_user_service_htvlabuserauthserviceimpl",
+      "apps_user_management_service_src_main_java_com_htv_user_service_htvlabuserauthserviceimpl_htvlabuserauthserviceimpl",
+      "apps_user_management_service_src_main_java_com_htv_user_service_htvlabuserauthserviceimpl_htvlabuserauthserviceimpl_authenticate",
+      "apps_user_management_service_src_main_java_com_htv_user_service_htvlabuserauthserviceimpl_htvlabuserauthserviceimpl_loadbyuserid",
+      "apps_user_management_service_src_main_java_com_htv_user_service_htvlabuserauthserviceimpl_htvlabuserauthserviceimpl_register",
+      "apps_user_management_service_src_main_java_com_htv_user_service_htvlabuserauthserviceimpl_java_override",
+      "email",
+      "notblank",
+      "objects",
+      "org_springframework_boot_autoconfigure_condition_conditionalonbean",
+      "org_springframework_security_crypto_password_passwordencoder",
+      "postmapping",
+      "set",
+      "spring_starter_htv_security_starter_src_main_java_com_htv_security_model_authdtos",
+      "spring_starter_htv_security_starter_src_main_java_com_htv_security_model_authdtos_authdtos",
+      "spring_starter_htv_security_starter_src_main_java_com_htv_security_model_authdtos_authdtos_authdtos",
+      "spring_starter_htv_security_starter_src_main_java_com_htv_security_model_authdtos_loginrequest",
+      "spring_starter_htv_security_starter_src_main_java_com_htv_security_model_authdtos_refreshrequest",
+      "spring_starter_htv_security_starter_src_main_java_com_htv_security_model_authdtos_registerrequest",
+      "spring_starter_htv_security_starter_src_main_java_com_htv_security_model_authdtos_tokenresponse",
+      "spring_starter_htv_security_starter_src_main_java_com_htv_security_model_authenticateduser",
+      "spring_starter_htv_security_starter_src_main_java_com_htv_security_model_authenticateduser_authenticateduser",
+      "spring_starter_htv_security_starter_src_main_java_com_htv_security_service_htvlabuserauthservice",
+      "spring_starter_htv_security_starter_src_main_java_com_htv_security_service_htvlabuserauthservice_htvlabuserauthservice",
+      "spring_starter_htv_security_starter_src_main_java_com_htv_security_service_htvlabuserauthservice_htvlabuserauthservice_authenticate",
+      "spring_starter_htv_security_starter_src_main_java_com_htv_security_service_htvlabuserauthservice_htvlabuserauthservice_loadbyuserid",
+      "spring_starter_htv_security_starter_src_main_java_com_htv_security_service_htvlabuserauthservice_htvlabuserauthservice_register",
+      "spring_starter_htv_security_starter_src_main_java_com_htv_security_token_jwttokenservice_jwttokenservice_issuetokenpair",
+      "valid"
+    ],
+    "3": [
+      "concurrenthashmap",
+      "instant",
+      "libs_common_api_contract_src_main_java_com_htv_common_contract_apiresponse",
+      "libs_common_domain_src_main_java_com_htv_common_domain_knowledgemodels",
+      "libs_common_domain_src_main_java_com_htv_common_domain_knowledgemodels_knowledgemodels",
+      "libs_common_domain_src_main_java_com_htv_common_domain_knowledgemodels_knowledgemodels_knowledgemodels",
+      "libs_common_domain_src_main_java_com_htv_common_domain_knowledgemodels_note",
+      "libs_common_domain_src_main_java_com_htv_common_domain_knowledgemodels_permission",
+      "libs_common_domain_src_main_java_com_htv_common_domain_knowledgemodels_role",
+      "libs_common_domain_src_main_java_com_htv_common_domain_knowledgemodels_topic",
+      "libs_common_event_src_main_java_com_htv_common_event_eventenvelope",
+      "libs_common_event_src_main_java_com_htv_common_event_eventenvelope_eventenvelope",
+      "macalgorithm",
+      "map",
+      "optional",
+      "spring_starter_htv_security_starter_src_main_java_com_htv_security_service_refreshtokenstore",
+      "spring_starter_htv_security_starter_src_main_java_com_htv_security_service_refreshtokenstore_refreshtokenstore",
+      "spring_starter_htv_security_starter_src_main_java_com_htv_security_service_refreshtokenstore_refreshtokenstore_finduserid",
+      "spring_starter_htv_security_starter_src_main_java_com_htv_security_service_refreshtokenstore_refreshtokenstore_revoke",
+      "spring_starter_htv_security_starter_src_main_java_com_htv_security_service_refreshtokenstore_refreshtokenstore_save",
+      "spring_starter_htv_security_starter_src_main_java_com_htv_security_support_inmemoryrefreshtokenstore",
+      "spring_starter_htv_security_starter_src_main_java_com_htv_security_support_inmemoryrefreshtokenstore_entry",
+      "spring_starter_htv_security_starter_src_main_java_com_htv_security_support_inmemoryrefreshtokenstore_inmemoryrefreshtokenstore",
+      "spring_starter_htv_security_starter_src_main_java_com_htv_security_support_inmemoryrefreshtokenstore_inmemoryrefreshtokenstore_finduserid",
+      "spring_starter_htv_security_starter_src_main_java_com_htv_security_support_inmemoryrefreshtokenstore_inmemoryrefreshtokenstore_revoke",
+      "spring_starter_htv_security_starter_src_main_java_com_htv_security_support_inmemoryrefreshtokenstore_inmemoryrefreshtokenstore_save",
+      "spring_starter_htv_security_starter_src_main_java_com_htv_security_support_inmemoryrefreshtokenstore_java_override",
+      "spring_starter_htv_security_starter_src_main_java_com_htv_security_token_jwttokenservice",
+      "spring_starter_htv_security_starter_src_main_java_com_htv_security_token_jwttokenservice_java_jwt",
+      "spring_starter_htv_security_starter_src_main_java_com_htv_security_token_jwttokenservice_java_jwtdecoder",
+      "spring_starter_htv_security_starter_src_main_java_com_htv_security_token_jwttokenservice_java_jwtencoder",
+      "spring_starter_htv_security_starter_src_main_java_com_htv_security_token_jwttokenservice_jwttokenservice",
+      "spring_starter_htv_security_starter_src_main_java_com_htv_security_token_jwttokenservice_jwttokenservice_refreshtokenid",
+      "spring_starter_htv_security_starter_src_main_java_com_htv_security_token_jwttokenservice_jwttokenservice_validate",
+      "uuid"
+    ],
+    "4": [
+      "httpstatus",
+      "jakarta_servlet_http_httpservletrequest",
+      "libs_common_api_contract_src_main_java_com_htv_common_contract_apierror",
+      "libs_common_api_contract_src_main_java_com_htv_common_contract_apierror_apierror",
+      "libs_common_api_contract_src_main_java_com_htv_common_contract_apiresponse_apiresponse_fail",
+      "libs_common_api_contract_src_main_java_com_htv_common_contract_fielderror",
+      "libs_common_api_contract_src_main_java_com_htv_common_contract_fielderror_fielderror",
+      "libs_common_core_src_main_java_com_htv_common_core_pageresult",
+      "libs_common_core_src_main_java_com_htv_common_core_pageresult_pageresult",
+      "libs_common_error_src_main_java_com_htv_common_error_errorcode",
+      "libs_common_error_src_main_java_com_htv_common_error_errorcode_errorcode",
+      "libs_common_error_src_main_java_com_htv_common_error_errorcode_errorcode_conflict",
+      "libs_common_error_src_main_java_com_htv_common_error_errorcode_errorcode_device_offline",
+      "libs_common_error_src_main_java_com_htv_common_error_errorcode_errorcode_forbidden",
+      "libs_common_error_src_main_java_com_htv_common_error_errorcode_errorcode_internal_error",
+      "libs_common_error_src_main_java_com_htv_common_error_errorcode_errorcode_message_delivery_failed",
+      "libs_common_error_src_main_java_com_htv_common_error_errorcode_errorcode_not_found",
+      "libs_common_error_src_main_java_com_htv_common_error_errorcode_errorcode_unauthorized",
+      "libs_common_error_src_main_java_com_htv_common_error_errorcode_errorcode_validation_error",
+      "libs_common_error_src_main_java_com_htv_common_error_errorexception",
+      "libs_common_error_src_main_java_com_htv_common_error_errorexception_errorexception",
+      "libs_common_error_src_main_java_com_htv_common_error_errorexception_errorexception_errorcode",
+      "libs_common_error_src_main_java_com_htv_common_error_errorexception_errorexception_errorexception",
+      "list",
+      "org_springframework_web_bind_annotation_exceptionhandler",
+      "org_springframework_web_bind_annotation_responsestatus",
+      "org_springframework_web_bind_annotation_restcontrolleradvice",
+      "spring_starter_htv_security_starter_src_main_java_com_htv_security_web_securityexceptionhandler",
+      "spring_starter_htv_security_starter_src_main_java_com_htv_security_web_securityexceptionhandler_securityexceptionhandler",
+      "spring_starter_htv_security_starter_src_main_java_com_htv_security_web_securityexceptionhandler_securityexceptionhandler_handleerrorexception"
+    ],
+    "5": [
+      "apps_user_management_service_src_main_java_com_htv_user_domain_appuser",
+      "apps_user_management_service_src_main_java_com_htv_user_domain_appuser_appuser",
+      "apps_user_management_service_src_main_java_com_htv_user_domain_appuser_java_entity",
+      "apps_user_management_service_src_main_java_com_htv_user_domain_basedomain",
+      "apps_user_management_service_src_main_java_com_htv_user_domain_basedomain_basedomain",
+      "apps_user_management_service_src_main_java_com_htv_user_domain_infouser",
+      "apps_user_management_service_src_main_java_com_htv_user_domain_infouser_infouser",
+      "apps_user_management_service_src_main_java_com_htv_user_repo_appuserrepository",
+      "apps_user_management_service_src_main_java_com_htv_user_repo_appuserrepository_appuserrepository",
+      "apps_user_management_service_src_main_java_com_htv_user_repo_appuserrepository_appuserrepository_existsbyusernameoremail",
+      "apps_user_management_service_src_main_java_com_htv_user_repo_appuserrepository_appuserrepository_findbyusernameoremail",
+      "createdby",
+      "createddate",
+      "entitylisteners",
+      "jakarta_persistence_entity",
+      "jsondeserialize",
+      "jsonserialize",
+      "lastmodifiedby",
+      "lastmodifieddate",
+      "localdatetime",
+      "localdatetimedeserializer",
+      "localdatetimeserializer",
+      "lombok_getter",
+      "lombok_setter",
+      "mappedsuperclass",
+      "org_springframework_data_jpa_domain_support_auditingentitylistener",
+      "org_springframework_data_jpa_repository_jparepository",
+      "org_springframework_stereotype_repository",
+      "persistence"
+    ],
+    "6": [
+      "arrays",
+      "collection",
+      "collectors",
+      "grantedauthority",
+      "jwtauthenticationtoken",
+      "org_springframework_core_convert_converter_converter",
+      "org_springframework_security_authentication_abstractauthenticationtoken",
+      "org_springframework_security_authorization_authorizationdecision",
+      "org_springframework_security_authorization_authorizationmanager",
+      "org_springframework_security_core_authentication",
+      "org_springframework_security_oauth2_jwt_jwt",
+      "org_springframework_security_web_access_intercept_requestauthorizationcontext",
+      "simplegrantedauthority",
+      "spring_starter_htv_security_starter_src_main_java_com_htv_security_authorization_accessruleauthorizationmanager",
+      "spring_starter_htv_security_starter_src_main_java_com_htv_security_authorization_accessruleauthorizationmanager_accessruleauthorizationmanager",
+      "spring_starter_htv_security_starter_src_main_java_com_htv_security_authorization_accessruleauthorizationmanager_accessruleauthorizationmanager_accessruleauthorizationmanager",
+      "spring_starter_htv_security_starter_src_main_java_com_htv_security_authorization_accessruleauthorizationmanager_accessruleauthorizationmanager_check",
+      "spring_starter_htv_security_starter_src_main_java_com_htv_security_authorization_accessruleauthorizationmanager_java_override",
+      "spring_starter_htv_security_starter_src_main_java_com_htv_security_token_htvlabauthenticationconverter",
+      "spring_starter_htv_security_starter_src_main_java_com_htv_security_token_htvlabauthenticationconverter_htvlabauthenticationconverter",
+      "spring_starter_htv_security_starter_src_main_java_com_htv_security_token_htvlabauthenticationconverter_htvlabauthenticationconverter_convert",
+      "spring_starter_htv_security_starter_src_main_java_com_htv_security_token_htvlabauthenticationconverter_htvlabauthenticationconverter_readclaim",
+      "spring_starter_htv_security_starter_src_main_java_com_htv_security_token_htvlabauthenticationconverter_java_override",
+      "supplier"
+    ],
+    "7": [
+      "libs_common_iot_src_main_java_com_htv_common_iot_iotmodels",
+      "libs_common_iot_src_main_java_com_htv_common_iot_iotmodels_device",
+      "libs_common_iot_src_main_java_com_htv_common_iot_iotmodels_iotmodels",
+      "libs_common_iot_src_main_java_com_htv_common_iot_iotmodels_iotmodels_iotmodels",
+      "libs_common_iot_src_main_java_com_htv_common_iot_iotmodels_mqtttopic",
+      "libs_common_iot_src_main_java_com_htv_common_iot_iotmodels_mqtttopic_value",
+      "libs_common_iot_src_main_java_com_htv_common_iot_iotmodels_sensortype",
+      "libs_common_iot_src_main_java_com_htv_common_iot_iotmodels_sensortype_humidity",
+      "libs_common_iot_src_main_java_com_htv_common_iot_iotmodels_sensortype_light",
+      "libs_common_iot_src_main_java_com_htv_common_iot_iotmodels_sensortype_motion",
+      "libs_common_iot_src_main_java_com_htv_common_iot_iotmodels_sensortype_pressure",
+      "libs_common_iot_src_main_java_com_htv_common_iot_iotmodels_sensortype_temperature",
+      "libs_common_iot_src_main_java_com_htv_common_iot_iotmodels_telemetrypayload"
+    ],
+    "8": [
+      "apps_user_management_service_src_main_java_com_htv_user_dto_userupdaterequest",
+      "arraylist",
+      "duration",
+      "hashset",
+      "lombok_data",
+      "org_springframework_boot_context_properties_configurationproperties",
+      "org_springframework_http_httpmethod",
+      "spring_starter_htv_security_starter_src_main_java_com_htv_security_htvsecurityproperties",
+      "spring_starter_htv_security_starter_src_main_java_com_htv_security_htvsecurityproperties_accessrule",
+      "spring_starter_htv_security_starter_src_main_java_com_htv_security_htvsecurityproperties_cors",
+      "spring_starter_htv_security_starter_src_main_java_com_htv_security_htvsecurityproperties_headers",
+      "spring_starter_htv_security_starter_src_main_java_com_htv_security_htvsecurityproperties_htvsecurityproperties"
+    ],
+    "9": [
+      "junit_framework_test",
+      "junit_framework_testcase",
+      "platform_java_bom_src_test_java_com_htv_apptest",
+      "platform_java_bom_src_test_java_com_htv_apptest_apptest",
+      "platform_java_bom_src_test_java_com_htv_apptest_apptest_apptest",
+      "platform_java_bom_src_test_java_com_htv_apptest_apptest_suite",
+      "platform_java_bom_src_test_java_com_htv_apptest_apptest_testapp",
+      "testsuite"
+    ],
+    "10": [
+      "apps_user_management_service_src_main_java_com_htv_user_userapplication",
+      "apps_user_management_service_src_main_java_com_htv_user_userapplication_userapplication",
+      "apps_user_management_service_src_main_java_com_htv_user_userapplication_userapplication_main",
+      "org_springframework_boot_autoconfigure_springbootapplication",
+      "springapplication"
+    ],
+    "11": [
+      "libs_common_core_src_main_java_com_htv_common_core_result",
+      "libs_common_core_src_main_java_com_htv_common_core_result_result",
+      "libs_common_core_src_main_java_com_htv_common_core_result_result_fail",
+      "libs_common_core_src_main_java_com_htv_common_core_result_result_ok"
+    ],
+    "12": [
+      "apps_alert_rule_service_src_main_java_com_htv_app",
+      "apps_alert_rule_service_src_main_java_com_htv_app_app",
+      "apps_alert_rule_service_src_main_java_com_htv_app_app_main"
+    ],
+    "13": [
+      "apps_dashboard_bff_service_src_main_java_com_htv_app",
+      "apps_dashboard_bff_service_src_main_java_com_htv_app_app",
+      "apps_dashboard_bff_service_src_main_java_com_htv_app_app_main"
+    ],
+    "14": [
+      "apps_device_management_service_src_main_java_com_htv_app",
+      "apps_device_management_service_src_main_java_com_htv_app_app",
+      "apps_device_management_service_src_main_java_com_htv_app_app_main"
+    ],
+    "15": [
+      "apps_farm_management_service_src_main_java_com_htv_app",
+      "apps_farm_management_service_src_main_java_com_htv_app_app",
+      "apps_farm_management_service_src_main_java_com_htv_app_app_main"
+    ],
+    "16": [
+      "apps_farm_task_service_src_main_java_com_htv_app",
+      "apps_farm_task_service_src_main_java_com_htv_app_app",
+      "apps_farm_task_service_src_main_java_com_htv_app_app_main"
+    ],
+    "17": [
+      "apps_telemetry_query_service_src_main_java_com_htv_app",
+      "apps_telemetry_query_service_src_main_java_com_htv_app_app",
+      "apps_telemetry_query_service_src_main_java_com_htv_app_app_main"
+    ],
+    "18": [
+      "platform_java_bom_src_main_java_com_htv_app",
+      "platform_java_bom_src_main_java_com_htv_app_app",
+      "platform_java_bom_src_main_java_com_htv_app_app_main"
+    ],
+    "19": [
+      "quarkus_extensions_htv_cache_extentions_src_main_java_com_htv_app",
+      "quarkus_extensions_htv_cache_extentions_src_main_java_com_htv_app_app",
+      "quarkus_extensions_htv_cache_extentions_src_main_java_com_htv_app_app_main"
+    ],
+    "20": [
+      "quarkus_extensions_htv_common_extentions_src_main_java_com_htv_app",
+      "quarkus_extensions_htv_common_extentions_src_main_java_com_htv_app_app",
+      "quarkus_extensions_htv_common_extentions_src_main_java_com_htv_app_app_main"
+    ],
+    "21": [
+      "quarkus_extensions_htv_database_extentions_src_main_java_com_htv_app",
+      "quarkus_extensions_htv_database_extentions_src_main_java_com_htv_app_app",
+      "quarkus_extensions_htv_database_extentions_src_main_java_com_htv_app_app_main"
+    ],
+    "22": [
+      "quarkus_extensions_htv_graphql_extentions_src_main_java_com_htv_app",
+      "quarkus_extensions_htv_graphql_extentions_src_main_java_com_htv_app_app",
+      "quarkus_extensions_htv_graphql_extentions_src_main_java_com_htv_app_app_main"
+    ],
+    "23": [
+      "quarkus_extensions_htv_grpc_extentions_src_main_java_com_htv_app",
+      "quarkus_extensions_htv_grpc_extentions_src_main_java_com_htv_app_app",
+      "quarkus_extensions_htv_grpc_extentions_src_main_java_com_htv_app_app_main"
+    ],
+    "24": [
+      "quarkus_extensions_htv_kafka_extentions_src_main_java_com_htv_app",
+      "quarkus_extensions_htv_kafka_extentions_src_main_java_com_htv_app_app",
+      "quarkus_extensions_htv_kafka_extentions_src_main_java_com_htv_app_app_main"
+    ],
+    "25": [
+      "quarkus_extensions_htv_mqtt_extentions_src_main_java_com_htv_app",
+      "quarkus_extensions_htv_mqtt_extentions_src_main_java_com_htv_app_app",
+      "quarkus_extensions_htv_mqtt_extentions_src_main_java_com_htv_app_app_main"
+    ],
+    "26": [
+      "quarkus_extensions_htv_security_extentions_src_main_java_com_htv_app",
+      "quarkus_extensions_htv_security_extentions_src_main_java_com_htv_app_app",
+      "quarkus_extensions_htv_security_extentions_src_main_java_com_htv_app_app_main"
+    ],
+    "27": [
+      "spring_starter_htv_cache_starter_src_main_java_com_htv_app",
+      "spring_starter_htv_cache_starter_src_main_java_com_htv_app_app",
+      "spring_starter_htv_cache_starter_src_main_java_com_htv_app_app_main"
+    ],
+    "28": [
+      "spring_starter_htv_common_starter_src_main_java_com_htv_app",
+      "spring_starter_htv_common_starter_src_main_java_com_htv_app_app",
+      "spring_starter_htv_common_starter_src_main_java_com_htv_app_app_main"
+    ],
+    "29": [
+      "spring_starter_htv_graphql_starter_src_main_java_com_htv_app",
+      "spring_starter_htv_graphql_starter_src_main_java_com_htv_app_app",
+      "spring_starter_htv_graphql_starter_src_main_java_com_htv_app_app_main"
+    ],
+    "30": [
+      "spring_starter_htv_grpc_starter_src_main_java_com_htv_app",
+      "spring_starter_htv_grpc_starter_src_main_java_com_htv_app_app",
+      "spring_starter_htv_grpc_starter_src_main_java_com_htv_app_app_main"
+    ],
+    "31": [
+      "spring_starter_htv_kafka_starter_src_main_java_com_htv_app",
+      "spring_starter_htv_kafka_starter_src_main_java_com_htv_app_app",
+      "spring_starter_htv_kafka_starter_src_main_java_com_htv_app_app_main"
+    ],
+    "32": [
+      "spring_starter_htv_mqtt_starter_src_main_java_com_htv_app",
+      "spring_starter_htv_mqtt_starter_src_main_java_com_htv_app_app",
+      "spring_starter_htv_mqtt_starter_src_main_java_com_htv_app_app_main"
+    ],
+    "33": [
+      "deploy_script_jwtsecretgen",
+      "deploy_script_jwtsecretgen_sh__entry"
+    ],
+    "34": [
+      "pkg_alert_rule_service"
+    ],
+    "35": [
+      "pkg_com_htv_architect_iot_lab"
+    ],
+    "36": [
+      "pkg_com_htv_java_parent"
+    ],
+    "37": [
+      "pkg_common_api_contract"
+    ],
+    "38": [
+      "pkg_common_core"
+    ],
+    "39": [
+      "pkg_common_domain"
+    ],
+    "40": [
+      "pkg_common_error"
+    ],
+    "41": [
+      "pkg_common_event"
+    ],
+    "42": [
+      "pkg_common_iot"
+    ],
+    "43": [
+      "pkg_dashboard_bff_service"
+    ],
+    "44": [
+      "pkg_device_management_service"
+    ],
+    "45": [
+      "pkg_farm_management_service"
+    ],
+    "46": [
+      "pkg_farm_task_service"
+    ],
+    "47": [
+      "pkg_htv_cache_extentions"
+    ],
+    "48": [
+      "pkg_htv_cache_starter"
+    ],
+    "49": [
+      "pkg_htv_common_extentions"
+    ],
+    "50": [
+      "pkg_htv_common_starter"
+    ],
+    "51": [
+      "pkg_htv_database_extentions"
+    ],
+    "52": [
+      "pkg_htv_database_starter"
+    ],
+    "53": [
+      "pkg_htv_graphql_extentions"
+    ],
+    "54": [
+      "pkg_htv_graphql_starter"
+    ],
+    "55": [
+      "pkg_htv_grpc_extentions"
+    ],
+    "56": [
+      "pkg_htv_grpc_starter"
+    ],
+    "57": [
+      "pkg_htv_kafka_extentions"
+    ],
+    "58": [
+      "pkg_htv_kafka_starter"
+    ],
+    "59": [
+      "pkg_htv_mqtt_extentions"
+    ],
+    "60": [
+      "pkg_htv_mqtt_starter"
+    ],
+    "61": [
+      "pkg_htv_security_extentions"
+    ],
+    "62": [
+      "pkg_htv_security_starter"
+    ],
+    "63": [
+      "pkg_java_bom"
+    ],
+    "64": [
+      "pkg_quarkus_platform"
+    ],
+    "65": [
+      "pkg_spring_platform"
+    ],
+    "66": [
+      "pkg_telemetry_query_service"
+    ],
+    "67": [
+      "pkg_user_management_service"
+    ]
+  },
+  "cohesion": {
+    "0": 0.09176788124156546,
+    "1": 0.1111111111111111,
+    "2": 0.10252100840336134,
+    "3": 0.07394957983193277,
+    "4": 0.09195402298850575,
+    "5": 0.10344827586206896,
+    "6": 0.13405797101449277,
+    "7": 0.16666666666666666,
+    "8": 0.2727272727272727,
+    "9": 0.32142857142857145,
+    "10": 0.5,
+    "11": 0.5,
+    "12": 0.6666666666666666,
+    "13": 0.6666666666666666,
+    "14": 0.6666666666666666,
+    "15": 0.6666666666666666,
+    "16": 0.6666666666666666,
+    "17": 0.6666666666666666,
+    "18": 0.6666666666666666,
+    "19": 0.6666666666666666,
+    "20": 0.6666666666666666,
+    "21": 0.6666666666666666,
+    "22": 0.6666666666666666,
+    "23": 0.6666666666666666,
+    "24": 0.6666666666666666,
+    "25": 0.6666666666666666,
+    "26": 0.6666666666666666,
+    "27": 0.6666666666666666,
+    "28": 0.6666666666666666,
+    "29": 0.6666666666666666,
+    "30": 0.6666666666666666,
+    "31": 0.6666666666666666,
+    "32": 0.6666666666666666,
+    "33": 1.0,
+    "34": 1.0,
+    "35": 1.0,
+    "36": 1.0,
+    "37": 1.0,
+    "38": 1.0,
+    "39": 1.0,
+    "40": 1.0,
+    "41": 1.0,
+    "42": 1.0,
+    "43": 1.0,
+    "44": 1.0,
+    "45": 1.0,
+    "46": 1.0,
+    "47": 1.0,
+    "48": 1.0,
+    "49": 1.0,
+    "50": 1.0,
+    "51": 1.0,
+    "52": 1.0,
+    "53": 1.0,
+    "54": 1.0,
+    "55": 1.0,
+    "56": 1.0,
+    "57": 1.0,
+    "58": 1.0,
+    "59": 1.0,
+    "60": 1.0,
+    "61": 1.0,
+    "62": 1.0,
+    "63": 1.0,
+    "64": 1.0,
+    "65": 1.0,
+    "66": 1.0,
+    "67": 1.0
+  },
+  "gods": [
+    {
+      "id": "spring_starter_htv_security_starter_src_main_java_com_htv_security_htvsecurityproperties_htvsecurityproperties",
+      "label": "HtvSecurityProperties",
+      "degree": 16
+    },
+    {
+      "id": "spring_starter_htv_security_starter_src_main_java_com_htv_security_token_jwttokenservice_jwttokenservice",
+      "label": "JwtTokenService",
+      "degree": 13
+    },
+    {
+      "id": "libs_common_error_src_main_java_com_htv_common_error_errorcode_errorcode",
+      "label": "ErrorCode",
+      "degree": 13
+    },
+    {
+      "id": "spring_starter_htv_security_starter_src_main_java_com_htv_security_model_authenticateduser_authenticateduser",
+      "label": "AuthenticatedUser",
+      "degree": 12
+    },
+    {
+      "id": "spring_starter_htv_security_starter_src_main_java_com_htv_security_htvlabsecurityautoconfiguration_htvlabsecurityautoconfiguration",
+      "label": "HtvLabSecurityAutoConfiguration",
+      "degree": 11
+    },
+    {
+      "id": "spring_starter_htv_security_starter_src_main_java_com_htv_security_service_refreshtokenstore_refreshtokenstore",
+      "label": "RefreshTokenStore",
+      "degree": 11
+    },
+    {
+      "id": "apps_user_management_service_src_main_java_com_htv_user_domain_appuser_appuser",
+      "label": "AppUser",
+      "degree": 11
+    },
+    {
+      "id": "spring_starter_htv_security_starter_src_main_java_com_htv_security_htvlabsecuritywebautoconfiguration_htvlabsecuritywebautoconfiguration",
+      "label": "HtvLabSecurityWebAutoConfiguration",
+      "degree": 10
+    },
+    {
+      "id": "spring_starter_htv_security_starter_src_main_java_com_htv_security_token_htvlabauthenticationconverter_htvlabauthenticationconverter",
+      "label": "HtvLabAuthenticationConverter",
+      "degree": 10
+    },
+    {
+      "id": "libs_common_api_contract_src_main_java_com_htv_common_contract_apiresponse_apiresponse",
+      "label": "ApiResponse",
+      "degree": 9
+    }
+  ],
+  "surprises": [
+    {
+      "source": "AuthController",
+      "target": "JwtTokenService",
+      "source_files": [
+        "apps/user-management-service/src/main/java/com/htv/user/controller/AuthController.java",
+        "spring-starter/htv-security-starter/src/main/java/com/htv/security/token/JwtTokenService.java"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "AuthController",
+      "target": "HtvLabUserAuthService",
+      "source_files": [
+        "apps/user-management-service/src/main/java/com/htv/user/controller/AuthController.java",
+        "spring-starter/htv-security-starter/src/main/java/com/htv/security/service/HtvLabUserAuthService.java"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories"
+    },
+    {
+      "source": "HtvLabUserAuthServiceImpl",
+      "target": "HtvLabUserAuthService",
+      "source_files": [
+        "apps/user-management-service/src/main/java/com/htv/user/service/HtvLabUserAuthServiceImpl.java",
+        "spring-starter/htv-security-starter/src/main/java/com/htv/security/service/HtvLabUserAuthService.java"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "implements",
+      "why": "connects across different repos/directories"
+    },
+    {
+      "source": "ApiResponse",
+      "target": "ApiError",
+      "source_files": [
+        "libs/common-api-contract/src/main/java/com/htv/common/contract/ApiResponse.java",
+        "libs/common-api-contract/src/main/java/com/htv/common/contract/ApiError.java"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "bridges separate communities"
+    },
+    {
+      "source": "HtvLabSecurityAutoConfiguration",
+      "target": "HtvSecurityProperties",
+      "source_files": [
+        "spring-starter/htv-security-starter/src/main/java/com/htv/security/HtvLabSecurityAutoConfiguration.java",
+        "spring-starter/htv-security-starter/src/main/java/com/htv/security/HtvSecurityProperties.java"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "bridges separate communities"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `HtvSecurityProperties` connect `HtvSecurityProperties` to `HtvLabSecurityAutoConfiguration.java`, `JwtTokenService`, `HtvLabAuthenticationConverter.java`?",
+      "why": "High betweenness centrality (0.073) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `JwtTokenService` connect `JwtTokenService` to `lombok.RequiredArgsConstructor`, `HtvLabSecurityAutoConfiguration.java`, `HtvLabUserAuthServiceImpl.java`, `HtvSecurityProperties`?",
+      "why": "High betweenness centrality (0.046) - this node is a cross-community bridge."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `RefreshRequest`, `Note`, `Permission` to the rest of the system?",
+      "why": "56 weakly-connected nodes found - possible documentation gaps or missing edges."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `lombok.RequiredArgsConstructor` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.09176788124156546 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `HtvLabSecurityAutoConfiguration.java` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.1111111111111111 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `HtvLabUserAuthServiceImpl.java` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.10252100840336134 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `JwtTokenService` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.07394957983193277 - nodes in this community are weakly interconnected."
+    }
+  ]
+}

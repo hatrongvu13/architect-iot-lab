@@ -1,0 +1,1 @@
+{"nodes": [{"id": "pkg_dashboard_bff_service", "label": "dashboard-bff-service", "file_type": "code", "type": "package", "ecosystem": "maven", "source_file": "apps/dashboard-bff-service/pom.xml", "source_location": "L1"}], "edges": []}

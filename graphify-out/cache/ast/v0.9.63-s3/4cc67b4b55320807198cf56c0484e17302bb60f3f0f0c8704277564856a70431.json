@@ -1,0 +1,1 @@
+{"nodes": [{"id": "pkg_telemetry_query_service", "label": "telemetry-query-service", "file_type": "code", "type": "package", "ecosystem": "maven", "source_file": "apps/telemetry-query-service/pom.xml", "source_location": "L1"}], "edges": []}

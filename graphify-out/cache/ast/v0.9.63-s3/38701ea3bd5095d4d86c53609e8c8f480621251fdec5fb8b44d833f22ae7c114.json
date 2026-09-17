@@ -1,0 +1,1 @@
+{"nodes": [{"id": "pkg_common_iot", "label": "common-iot", "file_type": "code", "type": "package", "ecosystem": "maven", "source_file": "libs/common-iot/pom.xml", "source_location": "L1"}], "edges": []}

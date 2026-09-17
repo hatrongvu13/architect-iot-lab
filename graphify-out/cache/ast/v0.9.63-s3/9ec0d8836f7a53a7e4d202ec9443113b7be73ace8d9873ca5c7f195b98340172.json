@@ -1,0 +1,1 @@
+{"nodes": [{"id": "pkg_common_event", "label": "common-event", "file_type": "code", "type": "package", "ecosystem": "maven", "source_file": "libs/common-event/pom.xml", "source_location": "L1"}], "edges": []}

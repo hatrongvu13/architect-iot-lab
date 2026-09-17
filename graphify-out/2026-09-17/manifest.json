@@ -1,0 +1,566 @@
+{
+  "apps/alert-rule-service/pom.xml": {
+    "mtime": 1781779410.7290232,
+    "seen": 1789655208.3901172,
+    "ast_hash": "09cad152fc5bab0bbd4b96ce496a8ea1",
+    "semantic_hash": "09cad152fc5bab0bbd4b96ce496a8ea1"
+  },
+  "apps/alert-rule-service/src/main/java/com/htv/App.java": {
+    "mtime": 1781689610.133111,
+    "seen": 1789655208.39012,
+    "ast_hash": "e468caf685b0433554ddfa75c81915c4",
+    "semantic_hash": "e468caf685b0433554ddfa75c81915c4"
+  },
+  "apps/dashboard-bff-service/pom.xml": {
+    "mtime": 1781779410.7439625,
+    "seen": 1789655208.390121,
+    "ast_hash": "7ad518e58b49b6a1ed2c62f5773a46ac",
+    "semantic_hash": "7ad518e58b49b6a1ed2c62f5773a46ac"
+  },
+  "apps/dashboard-bff-service/src/main/java/com/htv/App.java": {
+    "mtime": 1781689640.2733302,
+    "seen": 1789655208.390122,
+    "ast_hash": "e468caf685b0433554ddfa75c81915c4",
+    "semantic_hash": "e468caf685b0433554ddfa75c81915c4"
+  },
+  "apps/device-management-service/pom.xml": {
+    "mtime": 1781779410.7531958,
+    "seen": 1789655208.390123,
+    "ast_hash": "d6048511450dd7343017204301a99079",
+    "semantic_hash": "d6048511450dd7343017204301a99079"
+  },
+  "apps/device-management-service/src/main/java/com/htv/App.java": {
+    "mtime": 1781689412.3292727,
+    "seen": 1789655208.390124,
+    "ast_hash": "e468caf685b0433554ddfa75c81915c4",
+    "semantic_hash": "e468caf685b0433554ddfa75c81915c4"
+  },
+  "apps/farm-management-service/pom.xml": {
+    "mtime": 1781779410.7479582,
+    "seen": 1789655208.390124,
+    "ast_hash": "20d6b6f65c53ccaa561b4e98db5e3cd5",
+    "semantic_hash": "20d6b6f65c53ccaa561b4e98db5e3cd5"
+  },
+  "apps/farm-management-service/src/main/java/com/htv/App.java": {
+    "mtime": 1781689395.3048742,
+    "seen": 1789655208.390125,
+    "ast_hash": "e468caf685b0433554ddfa75c81915c4",
+    "semantic_hash": "e468caf685b0433554ddfa75c81915c4"
+  },
+  "apps/farm-task-service/pom.xml": {
+    "mtime": 1781779410.738384,
+    "seen": 1789655208.390126,
+    "ast_hash": "dd2cde494f8a9b5afa45398c3bf8df03",
+    "semantic_hash": "dd2cde494f8a9b5afa45398c3bf8df03"
+  },
+  "apps/farm-task-service/src/main/java/com/htv/App.java": {
+    "mtime": 1781689625.6481156,
+    "seen": 1789655208.390126,
+    "ast_hash": "e468caf685b0433554ddfa75c81915c4",
+    "semantic_hash": "e468caf685b0433554ddfa75c81915c4"
+  },
+  "apps/telemetry-query-service/pom.xml": {
+    "mtime": 1781779410.721391,
+    "seen": 1789655208.3901272,
+    "ast_hash": "c93af06bb8c76c5ba09fa64ca2f9fca9",
+    "semantic_hash": "c93af06bb8c76c5ba09fa64ca2f9fca9"
+  },
+  "apps/telemetry-query-service/src/main/java/com/htv/App.java": {
+    "mtime": 1781689593.6314352,
+    "seen": 1789655208.3901281,
+    "ast_hash": "e468caf685b0433554ddfa75c81915c4",
+    "semantic_hash": "e468caf685b0433554ddfa75c81915c4"
+  },
+  "apps/user-management-service/pom.xml": {
+    "mtime": 1784656745.3115485,
+    "seen": 1789655208.3901281,
+    "ast_hash": "64dd932d1eccdcc35338c46f5ef5d90f",
+    "semantic_hash": "64dd932d1eccdcc35338c46f5ef5d90f"
+  },
+  "apps/user-management-service/src/main/java/com/htv/user/UserApplication.java": {
+    "mtime": 1785322150.2516613,
+    "seen": 1789655208.3901289,
+    "ast_hash": "d95cbd249a8e9a83600cedd8561135bd",
+    "semantic_hash": "d95cbd249a8e9a83600cedd8561135bd"
+  },
+  "apps/user-management-service/src/main/java/com/htv/user/controller/AdminController.java": {
+    "mtime": 1785487266.0243895,
+    "seen": 1789655208.3901298,
+    "ast_hash": "96b9fe99db4fd313d7fbf0fa5ae31fd6",
+    "semantic_hash": "96b9fe99db4fd313d7fbf0fa5ae31fd6"
+  },
+  "apps/user-management-service/src/main/java/com/htv/user/controller/AuthController.java": {
+    "mtime": 1785725514.7912624,
+    "seen": 1789655208.390132,
+    "ast_hash": "706a785f24ab1697f6e4756950cdd9d3",
+    "semantic_hash": "706a785f24ab1697f6e4756950cdd9d3"
+  },
+  "apps/user-management-service/src/main/java/com/htv/user/controller/PingController.java": {
+    "mtime": 1785382037.877591,
+    "seen": 1789655208.390133,
+    "ast_hash": "a064f81b4b336c2aba660d2f1881f48d",
+    "semantic_hash": "a064f81b4b336c2aba660d2f1881f48d"
+  },
+  "apps/user-management-service/src/main/java/com/htv/user/controller/UserController.java": {
+    "mtime": 1785920920.488913,
+    "seen": 1789655208.390134,
+    "ast_hash": "42cd2bdf1aca31e99a2190c6f6c6af1f",
+    "semantic_hash": "42cd2bdf1aca31e99a2190c6f6c6af1f"
+  },
+  "apps/user-management-service/src/main/java/com/htv/user/domain/AppUser.java": {
+    "mtime": 1785927405.2151587,
+    "seen": 1789655208.390134,
+    "ast_hash": "51aefafd332c55b0c5046d96dc270e78",
+    "semantic_hash": "51aefafd332c55b0c5046d96dc270e78"
+  },
+  "apps/user-management-service/src/main/java/com/htv/user/domain/BaseDomain.java": {
+    "mtime": 1785924993.0061314,
+    "seen": 1789655208.390135,
+    "ast_hash": "f5b3d49721a7725f9596b0e3ebb8bffc",
+    "semantic_hash": "f5b3d49721a7725f9596b0e3ebb8bffc"
+  },
+  "apps/user-management-service/src/main/java/com/htv/user/domain/InfoUser.java": {
+    "mtime": 1785925766.7412393,
+    "seen": 1789655208.390135,
+    "ast_hash": "bfddcb452c495081c0456eccb102cf04",
+    "semantic_hash": "bfddcb452c495081c0456eccb102cf04"
+  },
+  "apps/user-management-service/src/main/java/com/htv/user/dto/UserUpdateRequest.java": {
+    "mtime": 1785920920.504479,
+    "seen": 1789655208.390136,
+    "ast_hash": "5ce743ce3230e5b4df910a1a9b1c05ef",
+    "semantic_hash": "5ce743ce3230e5b4df910a1a9b1c05ef"
+  },
+  "apps/user-management-service/src/main/java/com/htv/user/repo/AppUserRepository.java": {
+    "mtime": 1781783384.0333061,
+    "seen": 1789655208.3901372,
+    "ast_hash": "cd7b5416ebcb94cb253952614d2b6409",
+    "semantic_hash": "cd7b5416ebcb94cb253952614d2b6409"
+  },
+  "apps/user-management-service/src/main/java/com/htv/user/service/HtvLabUserAuthServiceImpl.java": {
+    "mtime": 1785482447.1455798,
+    "seen": 1789655208.3901381,
+    "ast_hash": "03e59208ec7166c4e6949c5e23d90dca",
+    "semantic_hash": "03e59208ec7166c4e6949c5e23d90dca"
+  },
+  "apps/user-management-service/src/main/java/com/htv/user/service/admin/AdminService.java": {
+    "mtime": 1785486709.0630682,
+    "seen": 1789655208.3901381,
+    "ast_hash": "402e20b03e15e1fc010bf2325642a324",
+    "semantic_hash": "402e20b03e15e1fc010bf2325642a324"
+  },
+  "apps/user-management-service/src/main/java/com/htv/user/service/admin/AdminServiceImpl.java": {
+    "mtime": 1785486764.0802667,
+    "seen": 1789655208.3901389,
+    "ast_hash": "a571ba8bc9f02e59fe192e955af54aa4",
+    "semantic_hash": "a571ba8bc9f02e59fe192e955af54aa4"
+  },
+  "apps/user-management-service/src/main/java/com/htv/user/service/user/UserService.java": {
+    "mtime": 1785920920.4997776,
+    "seen": 1789655208.3901398,
+    "ast_hash": "a2faeeb0ed06653f1a46b163b3dc50da",
+    "semantic_hash": "a2faeeb0ed06653f1a46b163b3dc50da"
+  },
+  "apps/user-management-service/src/main/java/com/htv/user/service/user/UserServiceImpl.java": {
+    "mtime": 1785920920.495557,
+    "seen": 1789655208.3901398,
+    "ast_hash": "b4a8311f9f32ec569f61b2f5461889cd",
+    "semantic_hash": "b4a8311f9f32ec569f61b2f5461889cd"
+  },
+  "deploy/script/JwtsecretGen.sh": {
+    "mtime": 1785468311.7109046,
+    "seen": 1789655208.390141,
+    "ast_hash": "4aa4d59ed38511ced1b91ee499fad8f7",
+    "semantic_hash": "4aa4d59ed38511ced1b91ee499fad8f7"
+  },
+  "libs/common-api-contract/pom.xml": {
+    "mtime": 1781233541.175548,
+    "seen": 1789655208.390142,
+    "ast_hash": "7a1251bd23391f176436b41e9b9b7a08",
+    "semantic_hash": "7a1251bd23391f176436b41e9b9b7a08"
+  },
+  "libs/common-api-contract/src/main/java/com/htv/common/contract/ApiError.java": {
+    "mtime": 1781180971.4172025,
+    "seen": 1789655208.390142,
+    "ast_hash": "e8cab962d3e666578f33fe220a77b8dd",
+    "semantic_hash": "e8cab962d3e666578f33fe220a77b8dd"
+  },
+  "libs/common-api-contract/src/main/java/com/htv/common/contract/ApiResponse.java": {
+    "mtime": 1785741500.7406015,
+    "seen": 1789655208.390143,
+    "ast_hash": "197bb7576bccd1de4a8d8fde312687e8",
+    "semantic_hash": "197bb7576bccd1de4a8d8fde312687e8"
+  },
+  "libs/common-api-contract/src/main/java/com/htv/common/contract/FieldError.java": {
+    "mtime": 1781180971.4201913,
+    "seen": 1789655208.390143,
+    "ast_hash": "b4c65ffefb3f9636c619b557dcddc8fe",
+    "semantic_hash": "b4c65ffefb3f9636c619b557dcddc8fe"
+  },
+  "libs/common-core/pom.xml": {
+    "mtime": 1781233352.5110824,
+    "seen": 1789655208.390144,
+    "ast_hash": "5d92802ebbf663c49a61a45029f67e98",
+    "semantic_hash": "5d92802ebbf663c49a61a45029f67e98"
+  },
+  "libs/common-core/src/main/java/com/htv/common/core/PageResult.java": {
+    "mtime": 1781180975.5173624,
+    "seen": 1789655208.390145,
+    "ast_hash": "47764a5360cffe30b0e84431408ba280",
+    "semantic_hash": "47764a5360cffe30b0e84431408ba280"
+  },
+  "libs/common-core/src/main/java/com/htv/common/core/Result.java": {
+    "mtime": 1781233253.876953,
+    "seen": 1789655208.390145,
+    "ast_hash": "d2fc34a2ba1284762df0615f82f56515",
+    "semantic_hash": "d2fc34a2ba1284762df0615f82f56515"
+  },
+  "libs/common-domain/pom.xml": {
+    "mtime": 1781234290.1096663,
+    "seen": 1789655208.390146,
+    "ast_hash": "a1d5857eeaea7312bedc4efdc5381dba",
+    "semantic_hash": "a1d5857eeaea7312bedc4efdc5381dba"
+  },
+  "libs/common-domain/src/main/java/com/htv/common/domain/KnowledgeModels.java": {
+    "mtime": 1781234497.508782,
+    "seen": 1789655208.390147,
+    "ast_hash": "bd8b361202b159bf9d3c3601f819eb9b",
+    "semantic_hash": "bd8b361202b159bf9d3c3601f819eb9b"
+  },
+  "libs/common-error/pom.xml": {
+    "mtime": 1781233524.1644633,
+    "seen": 1789655208.390147,
+    "ast_hash": "2b85cd2079a5dafadeac96b68e5a97da",
+    "semantic_hash": "2b85cd2079a5dafadeac96b68e5a97da"
+  },
+  "libs/common-error/src/main/java/com/htv/common/error/ErrorCode.java": {
+    "mtime": 1781234682.0313773,
+    "seen": 1789655208.3901482,
+    "ast_hash": "50aa7e4a7d0804263c7116924eca97b1",
+    "semantic_hash": "50aa7e4a7d0804263c7116924eca97b1"
+  },
+  "libs/common-error/src/main/java/com/htv/common/error/ErrorException.java": {
+    "mtime": 1781234746.5323637,
+    "seen": 1789655208.390149,
+    "ast_hash": "bae2f3fc5310ee3e5a26686165ebeda6",
+    "semantic_hash": "bae2f3fc5310ee3e5a26686165ebeda6"
+  },
+  "libs/common-event/pom.xml": {
+    "mtime": 1781233475.1300657,
+    "seen": 1789655208.390149,
+    "ast_hash": "bd2169b0e523ba450b10e8b5b9ae3503",
+    "semantic_hash": "bd2169b0e523ba450b10e8b5b9ae3503"
+  },
+  "libs/common-event/src/main/java/com/htv/common/event/EventEnvelope.java": {
+    "mtime": 1781234888.1265779,
+    "seen": 1789655208.3901498,
+    "ast_hash": "0444f31933fca8352ce91ed4b79e1673",
+    "semantic_hash": "0444f31933fca8352ce91ed4b79e1673"
+  },
+  "libs/common-iot/pom.xml": {
+    "mtime": 1781233501.1129158,
+    "seen": 1789655208.390151,
+    "ast_hash": "50601b21c7158180d2c863b9e230477f",
+    "semantic_hash": "50601b21c7158180d2c863b9e230477f"
+  },
+  "libs/common-iot/src/main/java/com/htv/common/iot/IotModels.java": {
+    "mtime": 1781235914.8573763,
+    "seen": 1789655208.390152,
+    "ast_hash": "2ead211463db76fbcecefdcf6f061d19",
+    "semantic_hash": "2ead211463db76fbcecefdcf6f061d19"
+  },
+  "platform/java-bom/pom.xml": {
+    "mtime": 1781179837.4911718,
+    "seen": 1789655208.390152,
+    "ast_hash": "34ffe3a55145144374fc55a6c32ebead",
+    "semantic_hash": "34ffe3a55145144374fc55a6c32ebead"
+  },
+  "platform/java-bom/src/main/java/com/htv/App.java": {
+    "mtime": 1781172869.8125017,
+    "seen": 1789655208.390153,
+    "ast_hash": "e468caf685b0433554ddfa75c81915c4",
+    "semantic_hash": "e468caf685b0433554ddfa75c81915c4"
+  },
+  "platform/java-bom/src/test/java/com/htv/AppTest.java": {
+    "mtime": 1781172869.8134255,
+    "seen": 1789655208.390153,
+    "ast_hash": "e67b6233299de96448c65b2a414562f1",
+    "semantic_hash": "e67b6233299de96448c65b2a414562f1"
+  },
+  "platform/java-parent/pom.xml": {
+    "mtime": 1784653295.2295861,
+    "seen": 1789655208.390154,
+    "ast_hash": "f2b1dc78afda184773b56a212c2ccefc",
+    "semantic_hash": "f2b1dc78afda184773b56a212c2ccefc"
+  },
+  "platform/quarkus-platform/pom.xml": {
+    "mtime": 1781238857.7012362,
+    "seen": 1789655208.390155,
+    "ast_hash": "5c7ec597bbedcfc2ee8512e3e1d20921",
+    "semantic_hash": "5c7ec597bbedcfc2ee8512e3e1d20921"
+  },
+  "platform/spring-platform/pom.xml": {
+    "mtime": 1781174980.082973,
+    "seen": 1789655208.390155,
+    "ast_hash": "06dead2529cb70b3c8e4aaec4364be6d",
+    "semantic_hash": "06dead2529cb70b3c8e4aaec4364be6d"
+  },
+  "pom.xml": {
+    "mtime": 1785921183.7245471,
+    "seen": 1789655208.390156,
+    "ast_hash": "be05006a889b82096ce3c11269718397",
+    "semantic_hash": "be05006a889b82096ce3c11269718397"
+  },
+  "quarkus-extensions/htv-cache-extentions/pom.xml": {
+    "mtime": 1781238236.3548677,
+    "seen": 1789655208.390157,
+    "ast_hash": "5edf73a9809605d3a2412aed906ee940",
+    "semantic_hash": "5edf73a9809605d3a2412aed906ee940"
+  },
+  "quarkus-extensions/htv-cache-extentions/src/main/java/com/htv/App.java": {
+    "mtime": 1781237881.8457077,
+    "seen": 1789655208.390157,
+    "ast_hash": "e468caf685b0433554ddfa75c81915c4",
+    "semantic_hash": "e468caf685b0433554ddfa75c81915c4"
+  },
+  "quarkus-extensions/htv-common-extentions/pom.xml": {
+    "mtime": 1781238236.3619275,
+    "seen": 1789655208.3901582,
+    "ast_hash": "06cb474ea3d25d9956b345ddae3b15c4",
+    "semantic_hash": "06cb474ea3d25d9956b345ddae3b15c4"
+  },
+  "quarkus-extensions/htv-common-extentions/src/main/java/com/htv/App.java": {
+    "mtime": 1781237898.4871173,
+    "seen": 1789655208.3901582,
+    "ast_hash": "e468caf685b0433554ddfa75c81915c4",
+    "semantic_hash": "e468caf685b0433554ddfa75c81915c4"
+  },
+  "quarkus-extensions/htv-database-extentions/pom.xml": {
+    "mtime": 1781238236.3470814,
+    "seen": 1789655208.3901591,
+    "ast_hash": "0d8c9f5df52911cb26d72856c051c687",
+    "semantic_hash": "0d8c9f5df52911cb26d72856c051c687"
+  },
+  "quarkus-extensions/htv-database-extentions/src/main/java/com/htv/App.java": {
+    "mtime": 1781237917.2028162,
+    "seen": 1789655208.3901598,
+    "ast_hash": "e468caf685b0433554ddfa75c81915c4",
+    "semantic_hash": "e468caf685b0433554ddfa75c81915c4"
+  },
+  "quarkus-extensions/htv-graphql-extentions/pom.xml": {
+    "mtime": 1781238236.3525279,
+    "seen": 1789655208.3901598,
+    "ast_hash": "fa980a1150ae378f6c5cd9a81cc28b41",
+    "semantic_hash": "fa980a1150ae378f6c5cd9a81cc28b41"
+  },
+  "quarkus-extensions/htv-graphql-extentions/src/main/java/com/htv/App.java": {
+    "mtime": 1781237935.93315,
+    "seen": 1789655208.3901608,
+    "ast_hash": "e468caf685b0433554ddfa75c81915c4",
+    "semantic_hash": "e468caf685b0433554ddfa75c81915c4"
+  },
+  "quarkus-extensions/htv-grpc-extentions/pom.xml": {
+    "mtime": 1781238236.3503006,
+    "seen": 1789655208.390162,
+    "ast_hash": "ec3640ab6df2e1621afc6ac80d5a8886",
+    "semantic_hash": "ec3640ab6df2e1621afc6ac80d5a8886"
+  },
+  "quarkus-extensions/htv-grpc-extentions/src/main/java/com/htv/App.java": {
+    "mtime": 1781237990.2269142,
+    "seen": 1789655208.390162,
+    "ast_hash": "e468caf685b0433554ddfa75c81915c4",
+    "semantic_hash": "e468caf685b0433554ddfa75c81915c4"
+  },
+  "quarkus-extensions/htv-kafka-extentions/pom.xml": {
+    "mtime": 1781238236.3334908,
+    "seen": 1789655208.390163,
+    "ast_hash": "ba08458f61d7f1549bc78aed5bf58215",
+    "semantic_hash": "ba08458f61d7f1549bc78aed5bf58215"
+  },
+  "quarkus-extensions/htv-kafka-extentions/src/main/java/com/htv/App.java": {
+    "mtime": 1781238005.0799298,
+    "seen": 1789655208.390164,
+    "ast_hash": "e468caf685b0433554ddfa75c81915c4",
+    "semantic_hash": "e468caf685b0433554ddfa75c81915c4"
+  },
+  "quarkus-extensions/htv-mqtt-extentions/pom.xml": {
+    "mtime": 1781238236.3568144,
+    "seen": 1789655208.390164,
+    "ast_hash": "844e33e548d3fcc3509e1f4f10a75099",
+    "semantic_hash": "844e33e548d3fcc3509e1f4f10a75099"
+  },
+  "quarkus-extensions/htv-mqtt-extentions/src/main/java/com/htv/App.java": {
+    "mtime": 1781238022.4033473,
+    "seen": 1789655208.390165,
+    "ast_hash": "e468caf685b0433554ddfa75c81915c4",
+    "semantic_hash": "e468caf685b0433554ddfa75c81915c4"
+  },
+  "quarkus-extensions/htv-security-extentions/pom.xml": {
+    "mtime": 1781238699.7367973,
+    "seen": 1789655208.390166,
+    "ast_hash": "dc936ed26306fd4bad4163a098b38069",
+    "semantic_hash": "dc936ed26306fd4bad4163a098b38069"
+  },
+  "quarkus-extensions/htv-security-extentions/src/main/java/com/htv/App.java": {
+    "mtime": 1781238047.5541875,
+    "seen": 1789655208.390166,
+    "ast_hash": "e468caf685b0433554ddfa75c81915c4",
+    "semantic_hash": "e468caf685b0433554ddfa75c81915c4"
+  },
+  "spring-starter/htv-cache-starter/pom.xml": {
+    "mtime": 1781237642.7223134,
+    "seen": 1789655208.390167,
+    "ast_hash": "77cbc4c16f87c9654407556c0ac632b0",
+    "semantic_hash": "77cbc4c16f87c9654407556c0ac632b0"
+  },
+  "spring-starter/htv-cache-starter/src/main/java/com/htv/App.java": {
+    "mtime": 1781236893.3736875,
+    "seen": 1789655208.390167,
+    "ast_hash": "e468caf685b0433554ddfa75c81915c4",
+    "semantic_hash": "e468caf685b0433554ddfa75c81915c4"
+  },
+  "spring-starter/htv-common-starter/pom.xml": {
+    "mtime": 1781237642.7269936,
+    "seen": 1789655208.390168,
+    "ast_hash": "389484e7bb0c71cf95d8957ae7af22d7",
+    "semantic_hash": "389484e7bb0c71cf95d8957ae7af22d7"
+  },
+  "spring-starter/htv-common-starter/src/main/java/com/htv/App.java": {
+    "mtime": 1781236936.8667948,
+    "seen": 1789655208.3901691,
+    "ast_hash": "e468caf685b0433554ddfa75c81915c4",
+    "semantic_hash": "e468caf685b0433554ddfa75c81915c4"
+  },
+  "spring-starter/htv-database-starter/pom.xml": {
+    "mtime": 1781237750.5136797,
+    "seen": 1789655208.3901691,
+    "ast_hash": "e1ac13eded6a96e6cc41d262c9971cc0",
+    "semantic_hash": "e1ac13eded6a96e6cc41d262c9971cc0"
+  },
+  "spring-starter/htv-graphql-starter/pom.xml": {
+    "mtime": 1781237339.9266086,
+    "seen": 1789655208.39017,
+    "ast_hash": "90b50808f236d5a26055a8b4d0565e1c",
+    "semantic_hash": "90b50808f236d5a26055a8b4d0565e1c"
+  },
+  "spring-starter/htv-graphql-starter/src/main/java/com/htv/App.java": {
+    "mtime": 1781237063.0924225,
+    "seen": 1789655208.39017,
+    "ast_hash": "e468caf685b0433554ddfa75c81915c4",
+    "semantic_hash": "e468caf685b0433554ddfa75c81915c4"
+  },
+  "spring-starter/htv-grpc-starter/pom.xml": {
+    "mtime": 1781237339.933941,
+    "seen": 1789655208.3901708,
+    "ast_hash": "9572e24bbba0e26bd2904cf1017e0d9d",
+    "semantic_hash": "9572e24bbba0e26bd2904cf1017e0d9d"
+  },
+  "spring-starter/htv-grpc-starter/src/main/java/com/htv/App.java": {
+    "mtime": 1781237077.1778069,
+    "seen": 1789655208.390172,
+    "ast_hash": "e468caf685b0433554ddfa75c81915c4",
+    "semantic_hash": "e468caf685b0433554ddfa75c81915c4"
+  },
+  "spring-starter/htv-kafka-starter/pom.xml": {
+    "mtime": 1781237339.9238577,
+    "seen": 1789655208.390174,
+    "ast_hash": "46343feadef773c5eff12dc5bf4fda09",
+    "semantic_hash": "46343feadef773c5eff12dc5bf4fda09"
+  },
+  "spring-starter/htv-kafka-starter/src/main/java/com/htv/App.java": {
+    "mtime": 1781237097.3231113,
+    "seen": 1789655208.390174,
+    "ast_hash": "e468caf685b0433554ddfa75c81915c4",
+    "semantic_hash": "e468caf685b0433554ddfa75c81915c4"
+  },
+  "spring-starter/htv-mqtt-starter/pom.xml": {
+    "mtime": 1781237339.9289784,
+    "seen": 1789655208.3901749,
+    "ast_hash": "f868f83f936b8f1d52e19e2848830cfd",
+    "semantic_hash": "f868f83f936b8f1d52e19e2848830cfd"
+  },
+  "spring-starter/htv-mqtt-starter/src/main/java/com/htv/App.java": {
+    "mtime": 1781237112.4790483,
+    "seen": 1789655208.390176,
+    "ast_hash": "e468caf685b0433554ddfa75c81915c4",
+    "semantic_hash": "e468caf685b0433554ddfa75c81915c4"
+  },
+  "spring-starter/htv-security-starter/pom.xml": {
+    "mtime": 1781248759.3104844,
+    "seen": 1789655208.390177,
+    "ast_hash": "1f66b46a170e8c1e889514ec62dbca44",
+    "semantic_hash": "1f66b46a170e8c1e889514ec62dbca44"
+  },
+  "spring-starter/htv-security-starter/src/main/java/com/htv/security/HtvLabSecurityAutoConfiguration.java": {
+    "mtime": 1785469248.5853865,
+    "seen": 1789655208.390177,
+    "ast_hash": "adb7838262f22ac567ee665c9b11d180",
+    "semantic_hash": "adb7838262f22ac567ee665c9b11d180"
+  },
+  "spring-starter/htv-security-starter/src/main/java/com/htv/security/HtvLabSecurityWebAutoConfiguration.java": {
+    "mtime": 1785380861.6734648,
+    "seen": 1789655208.390178,
+    "ast_hash": "ae7eff01456dd4786ab72c03b012f97b",
+    "semantic_hash": "ae7eff01456dd4786ab72c03b012f97b"
+  },
+  "spring-starter/htv-security-starter/src/main/java/com/htv/security/HtvSecurityProperties.java": {
+    "mtime": 1785381330.0696602,
+    "seen": 1789655208.3901792,
+    "ast_hash": "95c2467f8bedd1b64a4da21d759640bb",
+    "semantic_hash": "95c2467f8bedd1b64a4da21d759640bb"
+  },
+  "spring-starter/htv-security-starter/src/main/java/com/htv/security/authorization/AccessRuleAuthorizationManager.java": {
+    "mtime": 1785322228.2292984,
+    "seen": 1789655208.3901792,
+    "ast_hash": "f8030e9717bfecd509675c3feac0dc0d",
+    "semantic_hash": "f8030e9717bfecd509675c3feac0dc0d"
+  },
+  "spring-starter/htv-security-starter/src/main/java/com/htv/security/model/AuthDtos.java": {
+    "mtime": 1785484067.4889834,
+    "seen": 1789655208.390181,
+    "ast_hash": "1dc223a34e6c7ef20a7863706926b723",
+    "semantic_hash": "1dc223a34e6c7ef20a7863706926b723"
+  },
+  "spring-starter/htv-security-starter/src/main/java/com/htv/security/model/AuthenticatedUser.java": {
+    "mtime": 1785484000.6135151,
+    "seen": 1789655208.390181,
+    "ast_hash": "95046d68cfcbe2557f7feef4f38df462",
+    "semantic_hash": "95046d68cfcbe2557f7feef4f38df462"
+  },
+  "spring-starter/htv-security-starter/src/main/java/com/htv/security/service/HtvLabUserAuthService.java": {
+    "mtime": 1785322150.2550206,
+    "seen": 1789655208.3901818,
+    "ast_hash": "314f01d507fc90cc487c4773efaf0fbd",
+    "semantic_hash": "314f01d507fc90cc487c4773efaf0fbd"
+  },
+  "spring-starter/htv-security-starter/src/main/java/com/htv/security/service/RefreshTokenStore.java": {
+    "mtime": 1785322150.255703,
+    "seen": 1789655208.390183,
+    "ast_hash": "c8ed7e2a13ea7ac76cfccae4251234fd",
+    "semantic_hash": "c8ed7e2a13ea7ac76cfccae4251234fd"
+  },
+  "spring-starter/htv-security-starter/src/main/java/com/htv/security/support/InMemoryRefreshTokenStore.java": {
+    "mtime": 1785381254.3183587,
+    "seen": 1789655208.390183,
+    "ast_hash": "2ff85033d16a70f63ca5f6b1d7d53e25",
+    "semantic_hash": "2ff85033d16a70f63ca5f6b1d7d53e25"
+  },
+  "spring-starter/htv-security-starter/src/main/java/com/htv/security/token/HtvLabAuthenticationConverter.java": {
+    "mtime": 1785381257.691919,
+    "seen": 1789655208.390184,
+    "ast_hash": "9851ba426479ebf9335fc6e95d1ba3a5",
+    "semantic_hash": "9851ba426479ebf9335fc6e95d1ba3a5"
+  },
+  "spring-starter/htv-security-starter/src/main/java/com/htv/security/token/JwtTokenService.java": {
+    "mtime": 1785484035.891417,
+    "seen": 1789655208.3901849,
+    "ast_hash": "0f6c5852965607bdfa937dcb99180bcd",
+    "semantic_hash": "0f6c5852965607bdfa937dcb99180bcd"
+  },
+  "spring-starter/htv-security-starter/src/main/java/com/htv/security/web/SecurityExceptionHandler.java": {
+    "mtime": 1785741500.7493227,
+    "seen": 1789655208.3901849,
+    "ast_hash": "6bb4a3930e30f8942f65c69cfbba8c31",
+    "semantic_hash": "6bb4a3930e30f8942f65c69cfbba8c31"
+  }
+}
